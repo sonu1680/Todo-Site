@@ -1,0 +1,119 @@
+
+*{
+    color:white;
+}
+body{
+    background-color: rgb(0, 0, 73);
+}
+#todoimg{
+    height:100px;
+    width:200px;
+}
+.container{
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+figcaption{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.additem{
+  
+   height: 35px;
+   width: 300px;
+   padding: 0%;
+   display: flex;
+   margin: auto;
+   margin-top: 50px;
+   
+}
+input{
+    height:inherit;
+    width:inherit;
+    color: black;
+    outline: none;
+    border: solid transparent ;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+#addIcon{
+    color: green;
+    margin-left: -35px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+.showitem{
+   
+    min-height: 25px;
+    width: 250px;
+    margin: auto;
+    margin-top: 40px;
+    
+    
+}
+.eachitem{
+    display: flex;
+    height:inherit;
+    width:inherit;
+    color: black;
+    border: solid transparent ;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(25, 184, 184);
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-right: 40px;
+    margin-left: -25px;
+    
+}
+
+#addIcon1{
+    margin-left:10px;
+} 
+.icon-btn{
+    color: green;
+    margin-left:250px;
+    margin-top: -5px;
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute;
+    
+}
+.remove{
+    margin: auto;
+    background-color: aliceblue;
+    margin-top:20px;
+    width: 80px;
+    border:solid transparent;
+    border-radius: 4px;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px;
+
+}
+
+#addIcon1:hover{
+    color: red;
+}
+
+#addIcon2:hover{
+    color: green;
+}
+.textbox{
+    text-align: center;
+    padding-bottom: 8px;
+}
